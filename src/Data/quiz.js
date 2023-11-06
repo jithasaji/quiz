@@ -5,29 +5,35 @@ export const quiz = {
     perQuestionScore: 5,
     questions: [
         {
-            question: 'Which function is used to serialize an object into a JSON string in Javascript?',
-            choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
+            question: 'What is the JavaScript this keyword used for?',
+            choices: ['Referring to the current object', 'Defining a new variable', 'Loop iteration', 'Math calculations'],
             type: 'MCQs',
-            correctAnswer: 'stringify()',
-        },
-        {
-            question: 'Which of the following keywords is used to define a variable in Javascript?',
-            choices: ['var', 'let', 'var and let', 'None of the above'],
+            correctAnswer: 'Referring to the current object',
+          },
+          {
+            question: 'Which JavaScript method is used to remove the first element from an array?',
+            choices: ['shift()', 'unshift()', 'pop()', 'slice()'],
             type: 'MCQs',
-            correctAnswer: 'var and let',
-        },
-        {
-            question:
-                'Which of the following methods can be used to display data in some form using Javascript?',
-            choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
+            correctAnswer: 'shift()',
+          },
+          {
+            question: 'What does the JavaScript null represent?',
+            choices: ['An empty string', 'An undefined value', 'An absence of any object value', 'A numeric value'],
             type: 'MCQs',
-            correctAnswer: 'All of the above',
-        },
-        {
-            question: 'How can a datatype be declared to be a constant type?',
-            choices: ['const', 'var', 'let', 'constant'],
+            correctAnswer: 'An absence of any object value',
+          },
+          {
+            question: 'In JavaScript, what is the purpose of the addEventListener method?',
+            choices: ['To create a new element', 'To add an event listener to an element', 'To change the document structure', 'To modify the CSS style'],
             type: 'MCQs',
-            correctAnswer: 'const',
-        }
+            correctAnswer: 'To add an event listener to an element',
+          },
+          {
+            question: 'Which operator is used for concatenating strings in JavaScript?',
+            choices: ['+', '&', 'concat()', 'concatenate()'],
+            type: 'MCQs',
+            correctAnswer: '+',
+          },
     ]
+
 }

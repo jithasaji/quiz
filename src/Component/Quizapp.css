@@ -9,6 +9,10 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 50px;
+    box-shadow: 3px -1px 45px 5px rgba(18, 16, 16, 0.63);
+    -webkit-box-shadow: 3px -1px 45px 5px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px -1px 45px 5px rgba(0,0,0,0.63);
+    
 }
 
 .container {
@@ -20,8 +24,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-
+.heading {
+    margin-bottom: 50px;
+    color: white;
+}
 .next-button {
     /* display: flex; */
     /* justify-content: flex-end; */
@@ -36,7 +44,8 @@ button{
     font-family: 'Lato', sans-serif;
 }
 .list-style{
-    background-color: blueviolet;
+    background-color: rgb(98, 15, 175);
+    color: white;
 }
 li{
     list-style: none;
@@ -45,4 +54,34 @@ li{
     border-radius: 5px;
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+.result-style{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-style h1{
+    margin-bottom: 20px;
+
+}
+
+.result-style p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.results{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left-style{
+    box-shadow: 3px -1px 45px 5px rgba(0,0,0,0.63);
+-webkit-box-shadow: 3px -1px 45px 5px rgba(0,0,0,0.63);
+-moz-box-shadow: 3px -1px 45px 5px rgba(0,0,0,0.63);
 }
